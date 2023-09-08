@@ -2,9 +2,9 @@
 
 import { guessArray } from "./array.js";
 const letterPressed = document.querySelector(".alphabet");
-let image = document.querySelector(".image");
-let footerText = document.querySelector(".footerText");
-let allDivs = document.querySelectorAll("div");
+const image = document.querySelector(".image");
+const footerText = document.querySelector(".footerText");
+const allDivs = document.querySelectorAll("div");
 let chosenWord;
 let chosenWordLettersArray;
 let blankArray = [];
