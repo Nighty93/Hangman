@@ -1,0 +1,75 @@
+html {
+  font-size: 14px;
+  background-color: rgb(246, 210, 174);
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.head {
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.h1 {
+  margin: 1em;
+  font-size: 1.5em;
+}
+.buttonNewGame {
+  padding: 1em;
+  max-width: 50%;
+}
+
+.guessDiv {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: 800;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  letter-spacing: 0.5em;
+}
+
+.alphabet {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 3em;
+  padding: 2em;
+  /* border: 4px black solid; */
+  /* border-radius: 1em; */
+}
+
+.alphabet > div {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  border: 2px black solid;
+  padding: 0.12em;
+  margin: 0.12em;
+  width: 100%;
+}
+
+.footerText {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+img {
+  max-width: 15%;
+  height: auto;
+}
+
+div.hangman {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
